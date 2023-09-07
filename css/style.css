@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html, body, .container {
   height: 100%;
   font-family: 'Kaushan Script','Sail', cursive;
@@ -95,7 +101,7 @@ div#sea {
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "Click Me!";
+  content: "Cliquez Moi!";
   left: 0;
   bottom: 0;
   font-size: 24px;
@@ -166,7 +172,7 @@ div#sea {
   position: absolute;
   left: 10px;
   height: auto;
-  transform: translateY(10px) rotate(-20deg);
+  transform: translate(50px,10px) rotate(-20deg);
 }
 .icons .row {
   width: 100%;

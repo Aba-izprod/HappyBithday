@@ -242,10 +242,11 @@ function reveal() {
   var ifrm = document.createElement("h1");
   // ifrm.setAttribute("src", "https://www.youtube.com/watch?v=M2yCoorMsEs");
   ifrm.innerHTML = 'De la part de Aba';
-  ifrm.style.color = 'red';
+  ifrm.style.color = '#dab651';
   // ifrm.style.textAlign = 'center';
   ifrm.style.transform = 'translate(-50%,-50%)';
-  ifrm.style.fontFamily ='Poppins';
+  ifrm.style.fontFamily ='Raleway';
+  ifrm.style.backgroundColor ='#0C1D42';
   ifrm.style.fontSize ='20px';
   document.querySelector('#video').appendChild(ifrm);
 }
